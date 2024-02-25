@@ -60,11 +60,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Urvish Asodariya";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            $("#favicon").attr("href", "favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/hero1.png");
+            $("#favicon").attr("href", "hero1.png");
         }
     });
 
